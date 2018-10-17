@@ -97,3 +97,14 @@ table {
 .social-net {
   font-size: 15;
 }
+
+#sidebar {
+  position: fixed;
+  width: 30px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+#page-content {
+  margin-left: 30px;
+}
