@@ -21,7 +21,7 @@ body {
   background-color: #BAC7D1;
   font-family: 'Raleway', sans-serif;
   color: #354F52;
-  font-size: 10;
+  font-size: 15;
   line-height: 1.5;
 }
 
@@ -29,19 +29,19 @@ body {
 h1 {
   color: #2F3E46;
   text-align: center;
-  font-size: 15;
+  font-size: 25;
   font-family: 'Montserrat', sans-serif;
 }
 
 h2 {
   color: #2F3E46;
-  font-size: 12;
+  font-size: 15;
   font-family: 'Montserrat', sans-serif;
 }
 
 h3 {
   color: #2F3E46;
-  font-size: 12;
+  font-size: 15;
   font-family: 'Montserrat', sans-serif;
   text-align: center;
 }
@@ -58,7 +58,7 @@ table {
   /* background-color: #BAC7D1;*/
   font-family: 'Raleway', sans-serif;
   color: #354F52;
-  font-size: 10;
+  font-size: 15;
   line-height: 1.5;
   text-align: justify;
 }
@@ -69,7 +69,7 @@ table {
 }
 
 .container{
-  width: 500px;
+  width: 900px;
   margin: 30px auto;
 }
 
@@ -100,11 +100,21 @@ table {
 
 #sidebar {
   position: fixed;
-  width: 30px;
-  left: 0;
-  top: 0;
-  bottom: 0;
+  width: 100px;
+  left: 15px;
+  border-radius: 10px;
+  padding: 1px 0px 1px 0px;
+  line-height: 4;
+  font-size: 13;
+  background-color: #1c7293;
+  text-align: center;
 }
+
+.side-bar-text{
+  color: white;
+  text-decoration: none;
+}
+
 #page-content {
-  margin-left: 30px;
+  margin-left: 150px;
 }
